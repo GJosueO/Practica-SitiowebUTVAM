@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/uikit.min.css" />
+        <script src="../js/uikit.min.js"></script>
+        <script src="../js/uikit-icons.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="642742078375-mo7c4emb5p912pcbi1h98gdfjquiprid.apps.googleusercontent.com">
+        <link rel="stylesheet" href="../css/administracion.css">
+    </head>
+    <body>
+    	<form action="" class="form_login">
+            <img src="../resources/picture/jpg/inicio2.jpg" alt="">
+            <h3>UTVAM</h3>
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                    <input class="uk-input" type="text">
+
+                </div>
+                    <h2>Ingrese Usuario:</h2>
+            </div>
+        
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                    <input class="uk-input" type="password">
+                </div>
+                    <h2>Ingrese Contraseña:</h2>
+            </div>
+    		<div class="g-signin2 container" data-onsuccess="onSignIn">
+
+    			 <button class="boton_login">
+    			 	<span uk-icon="icon: google" class="icono_google"></span>
+    			 	Login With Google.
+    			 </button>
+                 <script type="text/javascript">
+                 function onSignIn(googleUser) {
+                    var profile = googleUser.getBasicProfile();
+                    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                    console.log('Name: ' + profile.getName());
+                    console.log('Image URL: ' + profile.getImageUrl("https://utvam.edu.mx/image/l.png"));
+                    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+                  }</script>
+    		</div>
+    	</form>
+    	
+    </body>
+</html>

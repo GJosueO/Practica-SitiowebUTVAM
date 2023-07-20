@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../resources/icon/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/uikit.min.css" />
+        <script src="../js/uikit.min.js"></script>
+        <script src="../js/uikit-icons.min.js"></script>
+	
+	
+	
+</head>
+<script type="text/javascript">
+	
+</script>
+
+<body>
+	<div class="whatsapp">
+			<form class="d-flex"  target="_BLANK" >
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="word">
+        <button class="btn btn-outline-success" type="submit"  id="busqueda" ><a href="https://www.google.com+$[#word}">Search </a></button>
+        
+      </form>
+			
+			<a href="https://api.whatsapp.com/send?phone=525582074223&text=Hola, Soy Josue Como estas?, solo es una prueba de funcionalidad! :)"   target="_BLANK">
+			<span class="icon-whatsapp"></span></a>
+
+			
+
+		</div>
+		<script type="text/javascript">
+
+			
+		</script>
+
+
+	<!-- header -->
+	<header>
+		<nav class="nav" id="header">
+		<div class="nav_div">
+				<div class="nav_div_logo ">
+					<a href="a" class="textutvam">
+						<img src="../resources/picture/png/wolfnav.png" alt="">UTVAM -
+					</a>
+				</div>
+				
+			</div>
+		<ul class="header_opciones">
+			<li class="nav_li"><a class="nav_li_a " href="subirimagen.php">Alumno</a>
+			</li><li class="nav_li"><a class="nav_li_a " href="#">Noticias Actuales</a>
+			</li><li class="nav_li"><a class="nav_li_a " href="inicio">Oferta Educativa</a>
+			</li><li class="nav_li"><a class="nav_li_a " href="adminitracion.html">Administrativos</a>
+			</li><li class="nav_li"><a class="nav_li_a texttramites" href="inicio">Tramites y Servicios</a>
+			</li><li class="nav_li"><a class="nav_li_a " href="inicio">Mas Accesibilidades</a>
+			</li>
+		</ul>
+		<div class="nav2">
+			<a class="nav_boton" href="#"><span class="icon-circle-down"></span></a>
+		</div>
+		</nav>
+	</header>
+	<!-- -->
+	
+	<!-- Article-->
+	<article>
+		<section class="section_principal">
+			<div class="cubierta">
+			<img src="../resources/picture/jpg/inicio2.jpg" alt="">
+			<div class="container_primera">
+				
+				<div class="section_principal_recuadro">
+					<div  class="section_principal_recuadro_textuno">
+						<h1>Universidad Tecnologica De La Zona Metropolitana Del Valle De Mexico</h1>
+					</div>
+					<br>
+					<div class="section_principal_recuadro_textdos">
+						<h3>Mision</h3>
+						<p>“Somos la Universidad Tecnológica BIS, comprometida con la educación Internacional, Bilingüe y Sustentable que forma profesionales basados en valores universales con responsabilidad social y competencias emprendedoras innovadoras para impulsar el desarrollo sustentable regional.”</p>
+					</div>
+					
+			</div>
+			
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h1>Noticias Nuevas</h1>
+				<br><br>
+  			<div class="row row-cols-2">
+
+    		<div class="col datos"><div class="container_caja_texttitle">
+							<h4>Felicita!</h4>
+						<div class="container_caja_text">
+							<p>A sus egresados de la 10ma. generacion de ingenieria y 8ta. generacion de T.S.U.</p>
+							<div class="container_caja_boton">
+								<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+    		<div class="col datos"><div class="container_caja_texttitle">
+							<h4>Convocatoria Certidficacion ITEP</h4>
+						<div class="container_caja_text">
+							<p>fecha de Limite de Pago</p>
+							<div class="container_caja_boton">
+							<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+    		<div class="col datos"><div class="container_caja_texttitle">
+							<h4>Convocatoria Certidficacion ITEP</h4>
+						<div class="container_caja_text">
+							<p>fecha de Limite de Pago</p>
+							<div class="container_caja_boton">
+							<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+    		<div class="col datos"><div class="container_caja_texttitle">
+						<h4>Aviso a la ciudadania en general</h4>
+						<div class="container_caja_text">
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Facere asperiores quasi, minima accusantium vitae neque repellendus eum alias delectus si </p>
+							<div class="container_caja_boton">
+								<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+    		<div class="col datos"><div class="container_caja_texttitle">
+						<h4>Aviso de Privacidad </h4>
+						<div class="container_caja_text">
+							<p>UTVAM</p>
+							<div class="container_caja_boton">
+								<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+    		<div class="col datos"><div class="container_caja_texttitle">
+						<h4>UTVAM </h4>
+						<div class="container_caja_text">
+							<p>Protocolo cero para la pevencion, atencion y sancion del acoso sexual y/o laboral y hostigamiento sexual y/o laboral en la administracion publica del Estado de Hidalgo.</p>
+							<div class="container_caja_boton">
+								<span class="icon-plus"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+  			</div>
+		</div>
+		</section>
+		<section>
+
+			<div class="container conocenos">
+			<h5>Conocenos</h5>
+			
+			</div>
+		</section>
+		<section>
+			<div class="container ">
+				<form class="formulario">
+					<h2 class="form__title">Datos de contacto</h2>
+					<div class="mb-3">
+  						<label for="exampleFormControlTextarea1" class="form-label">Nombre:</label>
+  						<input type="text" class="form-control" placeholder="Escribe..." aria-label="First name">
+					</div>
+					<div class="row">
+  						<div class="col">
+  	 						<label for="exampleFormControlTextarea1" class="form-label">Apellido Paterno:</label>
+    						<input type="text" class="form-control" placeholder="..." aria-label="First name">
+  						</div>
+  					<div class="col">
+  						<label for="exampleFormControlTextarea1" class="form-label">Apellido Materno:</label>
+    					<input type="text" class="form-control" placeholder="..." aria-label="Last name">
+  					</div>
+					</div>
+					<div class="col">
+						<label for="exampleFormControlTextarea1" class="form-label">Telefono:</label>
+    					<input type="text" class="form-control" placeholder="..." aria-label="First name">
+  					</div>					
+					<div class="mb-3">
+  						<label for="exampleFormControlInput1" class="form-label">G-mail:</label>
+  						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+  						<label for="exampleFormControlTextarea1" class="form-label">Comentario(s)</label>
+  						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<br>
+					<button type="button" class="btn btn-lg btn-primary" disabled>Enviar</button>
+					<button type="button" class="btn btn-secondary btn-lg" disabled>Cancelar</button>
+				
+			</form>
+		</div>
+		</section>
+		<section class="container">
+			<embed src="../resources/pdf/mapasitio.pdf" type="application/pdf" width="100%" height="100%" class="pdf_tamaño" />
+		</section>
+	</article>
+	<article>
+		<section>
+			<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+    <ul class="uk-slideshow-items">
+        <li id="fotito">
+            <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img  alt="" uk-cover name="image">
+        </li>
+    </ul>
+
+    <a class="uk-slidenav-large uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-slidenav-large uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+		</section>
+	</article>
+    <?php
+if(!empty($_GET['id'])){
+    //DB details
+    $dbHost     = 'localhost';
+    $dbUsername = 'root';
+    $dbPassword = '';
+    $dbName     = 'formulariocontacto';
+    
+    //Create connection and select DB
+    $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+    
+    //Check connection
+    if($db->connect_error){
+       die("Connection failed: " . $db->connect_error);
+    }
+    
+    //Get image data from database
+    $result = $db->query("SELECT image FROM images WHERE id = {$_GET['id']}");
+    
+    if($result->num_rows > 0){
+        $imgData = $result->fetch_assoc();
+        
+        //Render image
+        header("Content-type: image/jpg"); 
+        echo $imgData['image']; 
+    }else{
+        echo 'Image not found...';
+    }
+}
+?>
+	
+		
+	
+	<!-- -->
+	<!-- Aside-->
+	<!--<aside class="container">
+		<div class="whatsapp">
+			<a href="https://api.whatsapp.com/send?phone=525582074223&text=Hola, Soy Josue Como estas?, solo es una prueba de funcionalidad! :)"   target="_BLANK">
+			<span class="icon-whatsapp"></span></a>
+		</div>
+	</aside>-->
+
+	<!-- -->
+	<!-- Footer-->
+	<script  src="../js/script.js"></script>
+
+	<footer>
+		<div class="container">
+			<p>&copy; JosueGomezOmaña 2022</p>
+		</div>
+	</footer>
+	<!-- -->
+
+
+	
+</body>
+</html>

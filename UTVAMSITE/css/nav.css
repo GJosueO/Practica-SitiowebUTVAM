@@ -1,0 +1,450 @@
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+header {
+	height: auto;
+	width: auto;
+	border-bottom: 1px solid #C9C9C969;
+	position: sticky;
+	text-align:right !important;
+	z-index: 10;
+	top: 0;
+	background-color: #EFEFEFFF;
+
+
+
+
+	
+}
+
+  nav div a{
+	text-decoration: none ;
+    
+
+}
+
+
+nav li a{
+	text-decoration: none ;
+    list-style: none;
+    text-align: center;
+    text-align:justify !important;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-right: -5px;
+    margin-left: -5px;
+    
+   
+
+
+}
+
+
+.nav_li {
+	font-size:  6px;
+
+
+
+}
+.nav_li a{
+	font-size:  3em;
+	color: #0C0C5EE7;
+	font-family: 'Nunito Sans', sans-serif, 'Trebuchet MS', Arial, sans-serif;
+	text-align: center !important;
+	font-weight: bold;
+	
+	
+
+}
+.header_opciones{
+	text-decoration: none;
+	list-style: none;
+	width: 100vw;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	
+}
+.header_opciones li{
+	display: inline !important;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+div .textutvam img{
+	height: 70px;
+	z-index: 11;
+ 	margin-right: 5px;
+ 	text-align: justify;
+
+
+}
+div .textutvam img:hover{
+	transform: rotate(360deg);
+	transition: all ease-in  500ms;
+
+}
+.nav_div_logo a{
+	color:  #E96C76FF;
+	font-family: 'Cinzel', serif, Futura;
+	font-size: 25px;
+	text-shadow: 4px 3px 6px #000000D4;
+	
+	width: 100vw !important;
+	display: block !important;
+	margin:  0;
+	padding: 0;
+	text-align: center !important;
+
+	
+
+
+}
+
+.container{
+	padding: 202px;
+}
+section{
+	text-align: center;
+}
+div .textutvam:hover{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #EFEFEFFF;
+	border-left:.5px solid #00137F5B ;
+	transition: all ease-in  100ms;
+	color: #FFFFFFE7;
+}
+div .textutvam:after{content: ' Universidad Tecnológica de la Zona Metropolitana del Valle de México';
+	color: #333333FF;
+	text-align: center;
+
+}
+li .nav_li_a:hover{
+	padding-bottom: 20px;
+	border-bottom: 2px double #CE2B2BD9;
+	transition: all ease-in  200ms;
+	color: #fff;
+	background-color: #162987FF;
+	font-weight: bold;
+	border-top-left-radius: 30%;
+	border-bottom-right-radius: 10%;
+}
+
+nav a span , nav .nav_boton{
+	visibility: hidden;
+	display: line;
+	text-decoration: none;
+	text-align: right;
+		
+}
+
+
+@media only screen and (max-width: 710px) {
+	
+  
+	nav a span:hover{
+	margin-top: 0px;
+	transition: all ease-in  200ms;
+	visibility: hidden;
+
+}
+.pdf_tamaño{
+	float: button;
+	bottom: 0;
+	z-index: 10;
+}
+
+nav .nav_div{
+	visibility: visible;
+	text-align: left;
+
+}
+.nav_div_logo a{
+	color:  #E96C76FF;
+	font-family: 'Cinzel', serif, Futura;
+	font-size: 30px;
+	text-shadow: 4px 3px 6px #000000D4;
+	text-align: left;
+}
+div .textutvam img{
+	height: 45px;
+ 	margin-right: 5px;
+ 	text-align: right;
+}
+nav a span {
+	visibility: hidden;
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	width: 100vw;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #FF0000AA;
+	background-color: yellow;
+		
+}
+.header_opciones li a {
+		display: block;
+		padding: 0;
+		margin-top: 5px;
+		margin-bottom: 10px !important;
+		margin: 0;
+	
+	}
+
+nav li{
+	display: block;
+	margin: 10px;
+	padding: 5px;
+	
+
+	
+}
+nav li:hover{
+	
+	margin: 10px;
+	padding: 5px;
+}
+article{
+	position: absolute;
+}
+header{
+
+	position: static;
+	top: 0;
+
+
+}
+nav li, nav div a{
+	display: inline !important;
+	
+
+}
+
+}
+
+
+
+.section_principal img{
+	display: inline;
+	height: 100%;
+	width: 100%;
+	opacity: .5;
+	
+}
+.section_principal{
+	width: 100vw;
+	height: 500px;
+
+
+	
+}
+.section_principal .cubierta{
+	
+	width: 100%;
+	height: 100%;
+	background-color: #06166E8E;
+
+}
+.container_primera{
+	padding: 10px;
+	padding-top: 10px;
+	margin-top: 23%;
+	margin-left: 15%;
+	height: 50%;
+	width: 25%;
+	z-index: 9;
+	position: absolute;
+	top: 0;
+	
+	text-align: justify;
+}
+.section_principal_recuadro{
+	background-color: #F7F6F6FF;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+	display: flex-grow;
+
+
+}
+.section_principal_recuadro_textuno{
+	height: 15%;
+	width: 100%;
+	text-align: justify;
+
+	padding-top: 0;
+	border-bottom: 1px solid #21007FFF;
+
+	
+
+
+}
+.section_principal_recuadro_textdos{
+	height: 60%;
+	width: 100%;
+	text-align: justify;
+	
+
+	
+}
+.section_principal_recuadro_icono{
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	
+	
+}
+h1{
+	font-family: 'Trebuchet MS', Arial, sans-serif !important;
+	font-size: 16px !important;
+	color: #111;
+	text-align: center
+	
+
+}
+h3 {
+	font-family: Arial !important;
+	font-size: 14px !important;
+}
+
+p{
+	font-family: 'Trebuchet MS' !important;
+	text-align: center;
+
+}
+
+.icon-plus:hover{
+ background-color: #4800FFFF;
+}
+
+
+@media only screen and (max-width: 1900px) {
+	
+	.section_principal_recuadro{
+		display: block;
+		width: 400px;
+		height: 285px;
+		padding-top: 5px;
+		margin-top: 5px;
+		
+		
+		margin-left: -76px;
+
+	}
+	button{
+	margin-bottom: 10px;
+
+}
+.row .datos{
+	background-color: #FFF;
+	margin-bottom: 25px;
+	margin: 10;
+
+
+}
+
+
+}
+
+
+.container_caja_texttitle{
+	
+	padding: 5px;
+	margin: 4px;
+	height: 100%;
+	width: 100%;
+	background-color: #F4F4F4BF;
+	margin: 10;
+
+}
+.container_caja_text{
+	
+	padding: 5px;
+	margin: 4px;
+	
+}
+.container_caja_boton{
+	
+	padding: 5px;
+	margin: 4px;
+
+}
+.container_caja_texttitle:hover{
+	background-color: #031162DB;
+	color: #FFFFFFFF;
+	
+}
+section .conocenos{
+	background-color: #21007FF3;
+}
+section .conocenos:hover ,h5:hover{
+	background-color: #200377FF;
+	color: #FFFFFFFF;
+}
+.formulario{
+	background-color: #FCFCFCFF;
+	padding: 15px;
+	margin: 10px;
+}
+footer{
+	bottom: 0;
+}
+
+
+aside .container{
+ 
+}
+div .icon-whatsapp{
+	font-size: 50px;
+	color: #07C211EC; 
+	margin-left: 35px;
+	
+}
+
+.whatsapp{
+	
+	padding-bottom: 20px;
+	z-index: 20;
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+
+	text-align: center;
+	padding-right: 40px;
+
+}
+div .icon-whatsapp:hover{
+	font-size: 55px; 
+	color: #7FE7FFD7;
+	
+	transition: all 60ms ease-in;
+
+
+}
+a{text-decoration: none !important;}
+
+.pdf_tamaño{
+	height: 50vw;
+}
+
+.whatsapp form{
+	
+	margin-bottom: 25px;
+	text-align: center;
+
+}
+.whatsapp form:hover{
+	background-color: #141414FF;
+	padding: 10px;
+}
+.d-flex .form-control{
+	background-color: #FFFFFF69;
+}

@@ -1,0 +1,60 @@
+body{
+	height: 100vw;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	text-align: center;
+	flex-direction: row-reverse;
+	justify-content:center;
+	
+
+}
+img{
+	height: 100px;
+	width: 25%;
+	border-radius: 100%;
+	align-self: center;
+}
+.form_login{
+	text-align: center;
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	height: 600px;
+	width: 400px;
+	background-color: rgba(170, 254, 255, 0.894);
+	border: 2px solid rgba(207, 221, 221, 0.894);
+	
+
+}
+.uk-input{
+	background-color: rgba(248, 252, 255, 0.894);!important
+
+}
+.boton_login{
+	text-align: center;
+	background-color: #FFFFFFFA;
+	border-color: #EAEAEAFF;
+	padding-bottom: 200px;
+	padding: 10px;
+	font-family: Geneva, Verdana, sans-serif;
+}
+.icono_google{
+	text-align: center;
+	color: #19A6E5FF;
+}
+h2{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	padding-top: -50px;
+}
+.container{
+	
+}
+h3{
+	color: rgba(196, 8, 8, 0.809);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-stretch: 100;
+}

@@ -1,0 +1,21 @@
+h1{
+	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',  serif;
+}
+
+div .subir_archivos_boton, .subir_archivos{
+	
+	background-color: #FFFFFFFF;
+	border: 1px solid #E8E8E8FF;
+	padding: 15px;
+}
+div .subir_archivos_boton:hover{
+	
+	background-color: #9CFFFFFF;
+	border: 1px solid #FFF3FFFF;
+	padding: 15px;
+}
+ .subir_archivos:hover{
+ 	background-color: #FFF7FFFF;
+	border: 1px solid #FFF3FFFF;
+	padding: 15px;
+ }

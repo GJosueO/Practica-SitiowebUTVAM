@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <link rel="stylesheet" href="../css/subirimagen.css">
+        <link rel="stylesheet" href="../css/uikit.min.css" />
+        <script src="../js/uikit.min.js"></script>
+        <script src="../js/uikit-icons.min.js"></script>
+</head>
+<body>
+      <form action="upload.php" method="post" enctype="multipart/form-data"id="can">
+        <h1>Select image to upload:</h1>
+        <div class="container_subir">
+                
+                <input type="file" class="subir_archivos" id="foto" name="image "capture onchange= upload()/>
+                <input type="submit" class="subir_archivos_boton"name="submit" value="UPLOAD" onclick="mostrar()"/>
+        </div>
+        
+        
+    </form>  
+    <script  src="../js/script.js"></script>
+</body>
+</html>

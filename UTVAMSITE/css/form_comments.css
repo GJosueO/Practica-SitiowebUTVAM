@@ -1,0 +1,74 @@
+*{
+	
+	color: black;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	text-decoration: none;
+	
+}
+li a{
+	text-decoration: none;
+
+
+}
+nav{
+	list-style:none;
+	align-items: center;
+	text-align: center;
+}
+li {
+	
+	display: inline;
+	
+}
+
+
+ul  {
+	text-align:left;
+}
+.nav__menu{
+	
+	border-right:solid;
+	border-width: .2px;
+	padding: 10px;
+	color: gray;
+	font-size: 20px;
+}
+.nav__contactos {
+	
+
+	padding: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+}
+form{
+	background-color: #EFEFEFFF;
+	margin: 10px;
+	padding: 10%;
+	border-width: .2px;
+	border-style: solid;
+	border-color: #D6D6D6FF;
+}
+
+.form__title{
+
+	font-size: 35px;
+	text-align: center;
+}
+
+.form__registros  h4{
+	display: inline;
+	text-align: left;
+
+}
+.form__textetiqueta{
+	text-align: left;
+}
+li{
+	list-style:none;
+	text-decoration: none;
+
+}
+a{
+	font-size: 20px;
+	
+}
